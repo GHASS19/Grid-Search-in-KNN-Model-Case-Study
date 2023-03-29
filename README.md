@@ -11,9 +11,9 @@ from Kaggle and KNN.
 
 3. Data Wrangling
 
--Info
+- Info
 
--Describe
+- Describe
 
 
 4. EDA
