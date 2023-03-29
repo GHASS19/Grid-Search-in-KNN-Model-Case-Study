@@ -10,7 +10,9 @@ from Kaggle and KNN.
 2. Load the diabetes [data](https://github.com/GHASS19/Grid-Search-in-KNN-Model-Case-Study/blob/main/Data/Grid%20Search%20in%20KNN%20(Diabetes).csv)
 
 3. Data Wrangling
+
 -Info
+
 -Describe
 
 
