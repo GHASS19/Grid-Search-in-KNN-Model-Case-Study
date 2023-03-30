@@ -85,7 +85,7 @@ A. Precision:
  
 0 Outcome .85
 
-1 Outcome .56 (Our model is having a hard time predicting if that person actually has diabetes)
+1 Outcome .56 (Our model is having a hard time predicting if that person has diabetes)
 
 B. Recall:
 
