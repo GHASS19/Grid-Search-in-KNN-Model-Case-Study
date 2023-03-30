@@ -10,11 +10,11 @@
 
 ## 3. Data Wrangling
 
-- Info
+### - Info
 
-- Describe
+### - Describe
 
-- Replace zeros with nan for: 
+### - Replace zeros with nan for: 
 
  A. Pregnancies 
  
@@ -28,7 +28,7 @@
  
  F. BMI
  
- - Later we will use the mean or the median to fill in the nan for a particular column.
+ ### - Later we will use the mean or the median to fill in the nan for a particular column.
 
 ## 4. EDA
 
