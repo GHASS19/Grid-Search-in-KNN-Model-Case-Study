@@ -2,14 +2,13 @@
 
 ![image](https://user-images.githubusercontent.com/86930309/228668393-7ded6d4a-7981-431c-b39a-72099b8ad380.png)
 
-## This case study is all about using grid searches to identify the optimal parameters for a machine learning algorithm. Here I will use the Pima Indian diabetes dataset 
-from Kaggle and KNN.
+## This case study is all about using grid searches to identify the optimal parameters for a machine learning algorithm. Here I will use the Pima Indian diabetes dataset from Kaggle and KNN.
 
-1. Load the necessary packages
+## 1. Load the necessary packages
 
-2. Load the diabetes [data](https://github.com/GHASS19/Grid-Search-in-KNN-Model-Case-Study/blob/main/Data/Grid%20Search%20in%20KNN%20(Diabetes).csv)
+## 2. Load the diabetes [data](https://github.com/GHASS19/Grid-Search-in-KNN-Model-Case-Study/blob/main/Data/Grid%20Search%20in%20KNN%20(Diabetes).csv)
 
-3. Data Wrangling
+## 3. Data Wrangling
 
 - Info
 
@@ -31,7 +30,7 @@ from Kaggle and KNN.
  
  - Later we will use the mean or the median to fill in the nan for a particular column.
 
-4. EDA
+## 4. EDA
 
  A. This is graph of the number of women and their insulin levels when we replace the zeros with nan:
 
@@ -67,7 +66,7 @@ B. Glucose and Outcome had the second highest correlation of .49. Glucose has th
 
 C. The least correlated values was Diabetes Pedigree Function and Pregnancies at - .034
 
-5. Model
+## 5. Model
 
 - 70% Train / 30% Test Split
 
@@ -111,7 +110,9 @@ Best Score: .7467289719626168
 
 Best Parameters: n_estimators: 300
 
-- The best model was the KNN with 31 different neighbors. It had a slightly better accuracy score of .752644 than the random forest model.
+## 6. Conclusion:
+
+- The best model was the KNN with 31 different neighbors in predicting if a person had diabetes or not. It had a slightly better accuracy score of .752644 than the random forest model.
 
 
 
