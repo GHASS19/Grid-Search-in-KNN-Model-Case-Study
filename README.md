@@ -56,7 +56,7 @@ D. Skin Thickness column using the median:
 
 No real difference between utilizing the nan and median for skin thickness.
 
-- Heatmap of correlations between columns:
+### - Heatmap of correlations between columns:
 
 ![image](https://user-images.githubusercontent.com/86930309/228965556-39bae256-1e01-432a-93c2-963a4e1d543c.png)
 
@@ -68,17 +68,17 @@ C. The least correlated values was Diabetes Pedigree Function and Pregnancies at
 
 ## 5. Model
 
-- 70% Train / 30% Test Split
+### - 70% Train / 30% Test Split
 
-- Standard scaler, fit transform on x train/transform on x test, KNeighborsClassifier
+### - Standard scaler, fit transform on x train/transform on x test, KNeighborsClassifier
 
-- This is a graph of the train and test model performance by number of neighbors:
+### - This is a graph of the train and test model performance by number of neighbors:
 
 ![image](https://user-images.githubusercontent.com/86930309/228968837-eff49794-58a6-45c1-a347-93ac98fb328b.png)
 
 The highest accuracy score for our test model was at four neighbors.
 
-- Classification Report:
+### - Classification Report:
 
 A. Precision:
  
@@ -98,21 +98,21 @@ Precision .76
 
 Recall .74
 
-- Grid Search Cross Validation for KNN:
+### - Grid Search Cross Validation for KNN:
 
 Best Score: .7526440879382056
 
 Best Parameters: n_neighbors: 31
 
-- Grid Search Cross Validation for Random Forest Model:
+### - Grid Search Cross Validation for Random Forest Model:
 
-Best Score: .7467289719626168
+A. Best Score: .7467289719626168
 
-Best Parameters: n_estimators: 300
+B. Best Parameters: n_estimators: 300
 
 ## 6. Conclusion:
 
-- The best model was the KNN with 31 different neighbors in predicting if a person had diabetes or not. It had a slightly better accuracy score of .752644 than the random forest model.
+### - The best model was the KNN with 31 different neighbors in predicting if a person had diabetes or not. It had a slightly better accuracy score of .752644 than the random forest model.
 
 
 
