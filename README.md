@@ -1,4 +1,4 @@
-# Grid Search in K-Nearest Neighbor Model Case-Study
+# Grid Search in K-Nearest Neighbor Model Case Study
 
 ![image](https://user-images.githubusercontent.com/86930309/228668393-7ded6d4a-7981-431c-b39a-72099b8ad380.png)
 
